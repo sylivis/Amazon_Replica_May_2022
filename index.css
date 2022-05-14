@@ -1,0 +1,186 @@
+body { 
+    font-family: Arial, Helvetica, sans-serif;
+    width: 100%; 
+    height: 97vh; 
+    position: relative;
+    overflow: scroll;
+  
+}   
+h1 {
+    
+    text-align: center;
+    margin-bottom: 40px;
+}
+#signinbox {
+    
+    display: block;
+    position: relative;
+    border: thin solid lightgray;
+    border-radius: 5px;
+    width: 32%;    
+    height: 30%;
+    min-height: 280px;
+    min-width: 300px;
+    max-height: 230px;
+    max-width: 350px;
+    margin: 0 auto;
+    padding-bottom: 0;
+}
+h2 {
+    position: relative;
+    text-align: left;
+    padding-left: 5%;
+    margin-top: 2%;
+    font-weight: 100;
+   
+}
+form {
+    position: relative;
+    padding-left: 5%;
+    text-align: left;
+    padding-right: .7%;
+    
+
+}
+label {
+    position: relative;
+    display: inline-block;
+    font-size: small;
+    padding-bottom: 2%;
+}
+input[type="text"] {
+    position: relative;
+    height: 30px;
+    width: 90%;
+    margin-bottom: 14px;
+    text-size-adjust: 20%;
+
+}
+#pass {
+    text-indent: 40px;
+    
+
+}
+#forgotpassword {
+    float:right;
+    text-align: right;
+    margin-right: 25px;
+}
+button {
+    position: relative;
+    height: 30px;
+    display: inline-block;
+    width: 92.4%;
+    padding-right: 0%;
+    background-color: rgba(255, 188, 4, 0.755);
+    text-size-adjust: 20%;
+    cursor: pointer;
+    border-style: solid;
+    border-color: rgba(255, 188, 4, 0.968);
+    border-radius: 3px;
+    border-width: 1.5px;
+    margin-bottom: 13px;
+}
+button:hover {
+    background-color: rgba(255, 198, 27, 0.79);
+}
+a {
+    text-decoration: none;
+    font-size: small;
+    
+}
+a:hover{
+    text-decoration: underline;
+    color: rgb(180, 80, 8);
+}
+#help {
+    display: inline-block;
+    margin-left: auto;
+    position: relative;
+    margin-bottom: 0%;
+    padding-bottom: 0%;
+    
+}
+#arrow {
+    font-size: x-small;
+    margin-right: o;
+    margin-left: 5%;
+}
+h4 {
+    text-align: center;
+    display: block;
+    width: 30%;
+    min-width: 300px;
+    max-width: 350px;
+    position: relative;
+    text-align: center; 
+    border-bottom: 1px solid #000; 
+    line-height: 0.1em;
+    border-color: rgba(60, 59, 59, 0.598);
+    margin: 17px auto; 
+ } 
+ 
+ h4 span { 
+     padding: 0px 6px;
+     background:#fff; 
+     text-decoration: none;
+     font-weight: 100;
+     color: rgba(105, 108, 110, 0.708);
+ }
+
+
+
+ #create {
+    text-align: center;
+    display: block;
+    width: 30%;
+    min-width: 300px;
+    max-width: 350px;
+    margin: 0 auto;
+    margin-bottom: 45px;
+    border-color: lightgrey;
+    background-color: rgba(225, 221, 221, 0.679)
+ }
+ #create:hover {
+    background-color: rgba(180, 178, 178, 0.384);
+    cursor: pointer;
+}
+ footer {
+     
+     position:relative;
+     display: block;
+     text-align: center;
+     font-size: small;
+     width: 33%;
+     margin: 0 auto;
+     padding:0%;
+     
+     
+ }
+ ul {
+     text-decoration: none;
+     list-style-type: none;
+     position: relative;
+     display: block;
+    text-align: center;
+    text-justify: distribute;
+    display: inline-box;
+    padding-left: 0%;
+    margin-left: 0 auto;
+    margin-bottom: 8px;
+ }
+
+ li {
+    position: inherit;
+    display: inline;
+    padding: 10px;
+ }
+ copy {
+     display: block;
+     position: relative;
+     text-align: center;
+     padding-left: 20%;
+     margin-top: 0;
+     padding-top: 0px;
+     
+ }
